@@ -1,0 +1,28 @@
+
+.font-1{
+    font-weight: normal;
+    font-size: 2.5vw;
+}
+.font-special{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+.font-2{
+    font-size: 1.5vw !important;
+}
+
+@media screen and (max-width:800px){
+
+    .font-1{
+        font-size: 5.5vw;
+    }
+    .font-special{
+        font-size: 3.5vw;
+    }
+    .font-2{
+        font-size: 3.5vw !important;
+    }
+    .profile-btn{
+        width:50% !important;
+    }
+}
