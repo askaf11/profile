@@ -1,4 +1,3 @@
-
 .font-1{
     font-weight: normal;
     font-size: 2.5vw;
@@ -9,6 +8,19 @@
 }
 .font-2{
     font-size: 1.5vw !important;
+}
+.icons{
+    width: 2.5%;
+}
+.progress{
+    width: 20%;
+    background-color: #cccccc !important;
+}
+.progress-bar{
+    background-color: #4d4d4d !important;
+}
+.profile-btn{
+    width: 25%;
 }
 
 @media screen and (max-width:800px){
@@ -24,5 +36,21 @@
     }
     .profile-btn{
         width:50% !important;
+    }
+
+    .icons{
+        width: 5%;
+    }
+
+    .progress{
+        width: 40%;
+        height: 10px !important;
+        background-color: #cccccc !important;
+    }
+    .progress-bar{
+        height: 10px !important;
+    }
+    .profile-btn{
+        width: 50%;
     }
 }
