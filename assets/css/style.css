@@ -55,6 +55,10 @@
     .progress-bar{
         height: 15px !important;
     }
+    .progress-bar-text{
+        font-size: 2.5vw;
+        margin-left :2px !important;
+    }
     .profile-btn{
         width: 50%;
     }
