@@ -40,7 +40,9 @@
 .certifiy{
     width: 95%;
 }
-
+.card{
+    width: 25%;
+}
 @media screen and (max-width:800px){
 
     .font-1{
@@ -85,4 +87,7 @@
     .certifiy{
         width: 95%;
     }
+    .card{
+    width: 50%;
+}
 }
