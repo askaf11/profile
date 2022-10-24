@@ -1,13 +1,19 @@
+*{
+    -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
 .font-1{
     font-weight: normal;
     font-size: 2.5vw;
 }
+.font-2{
+    font-size: 1.5vw !important;
+}
 .font-special{
     font-weight: 400;
     font-size: 1.5vw;
-}
-.font-2{
-    font-size: 1.5vw !important;
 }
 .profile-img{
     width: 20%;
@@ -25,7 +31,15 @@
 .progress-bar{
     background-color: #4d4d4d !important;
 }
-
+.about{
+    width: 25%;
+}
+.certifiy-sec{
+    width: 25%;
+}
+.certifiy{
+    width: 95%;
+}
 
 @media screen and (max-width:800px){
 
@@ -61,5 +75,14 @@
     }
     .profile-btn{
         width: 50%;
+    }
+    .about{
+        width: 50%;
+    }
+    .certifiy-sec{
+        width: 50%;
+    }
+    .certifiy{
+        width: 95%;
     }
 }
